@@ -13,7 +13,7 @@ $layout = $redux_musique["opt-layout"];
 	</head>
 	<body <?php body_class(); ?>>
 		<div class="<?php echo $layout; ?>">
-			<header id="header" class="row">	
+			<header id="header" class="row">
 				<div id="logo" class="col-md-12"></div>			
 				<?php get_template_part('template-parts/menu'); ?>
 			</header>

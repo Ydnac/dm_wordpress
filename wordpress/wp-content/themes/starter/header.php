@@ -13,7 +13,9 @@ $layout = $redux_starter["opt-layout"];
 	</head>
 	<body <?php body_class(); ?>>
 		<div class="<?php echo $layout; ?>">
-			<header id="header" class="row">	
-				<div id="logo" class="col-md-12"></div>			
+			<header id="header" class="row">
+				<div id="logo" class="col-md-12">
+					<img src="images/LOGO-EVADE.png"></img>
+				</div>
 				<?php get_template_part('template-parts/menu'); ?>
 			</header>

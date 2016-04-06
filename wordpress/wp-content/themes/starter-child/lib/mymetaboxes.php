@@ -47,22 +47,3 @@ function centre_secteur_metabox() {
 		'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
 	) );
 }
-
-add_action( 'cmb2_admin_init', 'sejour_information_metabox');
-function sejour_information_metabox() {
-
-	$prefix = '_sejour_information_';
-
-	$cmb_sejour_information = new_cmb2_box( array(
-		'id'            => $prefix . 'metabox',
-		'title'         => __( 'Info Metabox', 'cmb2' ),
-		'object_types'  => array( 'sejour', ), // Post type
-	) );
-
-	$cmb_sejour_information->add_field( array(
-		'name' => __( 'Prix du séjour', 'cmb2' ),
-		'id'   => $prefix . 'textmoney',
-		'type' => 'text_money',
-		'before_field' => '€',
-	) );
-}
