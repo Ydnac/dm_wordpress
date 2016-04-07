@@ -58,3 +58,110 @@
 	margin-left : 5px;
 	margin-right: -5px;
 }
+
+#logo {
+	text-align: center;
+}
+
+.logo-img {
+		width: 200px;
+}
+
+.text-right {
+	text-align: center;
+}
+
+.navbar {
+    border-radius: 1px;
+}
+
+.navbar-default {
+  background-color: #FBB650;
+	border-color: #FBB650;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+
+.dropdown-menu > .active > a {
+	background-color: transparent;
+	color: black;
+}
+
+.dropdown-menu > .active > a:hover {
+	background-color: #F1F1F1;
+	color: black;
+}
+
+h3.panel-title {
+  color: #FFA51B !important;
+  text-transform: uppercase;
+  font-size: 19px !important;
+}
+
+.panel-default {
+    border-color: transparent;
+}
+
+.panel-default > .panel-heading {
+  background-color: white;
+	border-color: #FBB650;
+}
+
+.panel-heading {
+  padding: 10px 0;
+}
+
+h3, .h3 {
+    font-size: 20px;
+    color: black;
+}
+
+.ngg-browser-prev {
+	color: black;
+}
+
+.ngg-browser-next {
+	color: black;
+}
+
+.wpcf7-form {
+	width: 80%;
+}
+
+.wpcf7-form p{
+	display: inline-block;
+	margin: 12px;
+}
+
+.wpcf7-submit {
+	background-color: #FBB650;
+	color: white;
+	padding: 5px 10px;
+  border: 0;
+	display: none;
+
+}
+
+.wpcf7-textarea {
+	width: 657px;
+	height: 206px;
+	display: none;
+}
