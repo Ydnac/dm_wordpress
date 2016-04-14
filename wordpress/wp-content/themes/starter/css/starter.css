@@ -8,10 +8,6 @@
 	right: 0;
 }
 
-.thumbnail.video {
-
-}
-
 .thumbnail.video .caption {
 	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
@@ -142,12 +138,7 @@ h3, .h3 {
 	color: black;
 }
 
-.wpcf7-form {
-	width: 80%;
-}
-
 .wpcf7-form p{
-	display: inline-block;
 	margin: 12px;
 }
 
@@ -156,12 +147,8 @@ h3, .h3 {
 	color: white;
 	padding: 5px 10px;
   border: 0;
-	display: none;
-
 }
 
 .wpcf7-textarea {
-	width: 657px;
-	height: 206px;
-	display: none;
+	width: 80%;
 }

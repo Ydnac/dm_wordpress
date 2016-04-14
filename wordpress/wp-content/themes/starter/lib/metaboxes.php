@@ -28,7 +28,7 @@ function sejour_information_metabox() {
 
 	$cmb_sejour_information = new_cmb2_box( array(
 		'id'            => $prefix . 'metabox',
-		'title'         => __( 'Info Metabox', 'cmb2' ),
+		'title'         => __( 'Info Séjour', 'cmb2' ),
 		'object_types'  => array( 'sejour', ), // Post type
 	) );
 

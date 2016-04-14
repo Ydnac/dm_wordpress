@@ -1,7 +1,3 @@
-.body {
-	background-color: #FFDA99 !important;
-}
-
 #header {
 	padding-left: 0px;
   padding-right: 0px;
@@ -20,12 +16,14 @@
 	text-align: center;
 }
 
+
+
 .logo-img {
 		width: 200px;
 }
 
 .text-right {
-	text-align: center;
+	text-align: center !important;
 }
 
 .navbar {
@@ -33,41 +31,41 @@
 }
 
 .navbar-default {
-  background-color: #ec7405;
-	border-color: #ec7405;
+  background-color: #ec7405 !important;
+	border-color: #ec7405 !important;
 	margin: 8px 0 30px;
 }
 
 .navbar-default .navbar-brand {
-  color: white;
+  color: white !important;
 	font-size: 22px;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: black;
+  color: black !important;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: white !important;
 	font-size: 18px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .dropdown-menu > .active > a {
-	background-color: transparent;
-	color: black;
+	background-color: transparent !important;
+	color: black !important;
 }
 
 .dropdown-menu > .active > a:hover {
-	background-color: #F1F1F1;
-	color: black;
+	background-color: #F1F1F1 !important;
+	color: black !important;
 }
 
 h3.panel-title {
@@ -77,12 +75,12 @@ h3.panel-title {
 }
 
 .panel-default {
-    border-color: transparent;
+    border-color: transparent !important;
 }
 
 .panel-default > .panel-heading {
-  background-color: white;
-	border-color: #ec7405;
+  background-color: white !important;
+	border-color: #ec7405 !important;
 }
 
 .panel-heading {
@@ -91,19 +89,27 @@ h3.panel-title {
 
 h3, .h3 {
     font-size: 20px;
-    color: black;
+    color: black !important;
 }
 
 .ngg-browser-prev {
-	color: black;
+	color: black !important;
 }
 
 .ngg-browser-next {
-	color: black;
+	color: black !important;
+}
+
+.wpcf7-form {
+	padding: 20px;
+	border-top: 3px solid #F7BE7B;
+	margin: 30px;
 }
 
 .wpcf7-form input{
 	padding: 8px 10px;
+	background-color: rgb(210, 210, 210);
+	border: none;
 }
 
 .wpcf7-form p{
@@ -112,8 +118,8 @@ h3, .h3 {
 }
 
 .wpcf7-submit {
-	background-color: #ec7405;
-	color: white;
+	background-color: #ec7405 !important;
+	color: white !important;
 	padding: 5px 10px;
   border: 0;
 }
@@ -122,18 +128,29 @@ h3, .h3 {
 	width: 80%;
 	padding: 8px 10px;
 	font-size: 16px;
+	background-color: rgb(210, 210, 210);
+	border: none;
+}
+
+.thumbnail {
+	padding: 0 !important;
+	border: none !important;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.thumbnail .caption h3{
+	font-size: 20px;
+	padding: 0 8px 10px;
 }
 
 .thumbnail .caption {
-    padding: 0;
+    padding: 0 !important;
 }
 
 .thumbnail a > img {
     width: 100%;
 }
 
-.wpcf7-form-control .wpcf7-text .wpcf7-validates-as-required {
-	background: transparent;
-	border: 2px solid;
-	padding: 8px;
+#footer {
+    background-color: #ec7405 !important;
 }
